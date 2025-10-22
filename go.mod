@@ -1,6 +1,6 @@
 module github.com/cappyzawa/concourse-pipeline-jsonschema
 
-go 1.18
+go 1.23.0
 
 require (
 	github.com/alecthomas/jsonschema v0.0.0-20200217214135-7152f22193c9
@@ -21,10 +21,10 @@ require (
 	github.com/onsi/gomega v1.19.0 // indirect
 	github.com/rogpeppe/go-internal v1.8.0 // indirect
 	github.com/tedsuo/rata v1.0.1-0.20170830210128-07d200713958 // indirect
-	golang.org/x/crypto v0.0.0-20220321153916-2c7772ba3064 // indirect
-	golang.org/x/net v0.0.0-20220325170049-de3da57026de // indirect
-	golang.org/x/sys v0.0.0-20220328115105-d36c6a25d886 // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/crypto v0.35.0 // indirect
+	golang.org/x/net v0.21.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
